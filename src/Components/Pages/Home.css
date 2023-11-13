@@ -1,0 +1,179 @@
+* {
+    max-width: 100%;
+  }
+  
+#home{
+    background: hsl(0, 0%, 0%);
+    padding-top: 50px;
+}
+#home .row{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+#home h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+}
+#home p{
+    font-size: 30px;
+    font-weight: 500;
+}
+#home img{
+    width: 400px;
+    height: 450px;
+}
+
+#about{
+    padding-top: 120px;
+}
+#about p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.about-img{
+    width: 430px;
+    height: 380px;
+}
+#about h4{
+    padding-top: 70px;
+}
+
+#menuu{
+    text-align: center;
+    height: 100px;
+    padding-bottom: 430px;
+}
+
+#menuu .menu-div{
+    width: 330px;
+    height: 280px;
+    background: #fff;
+ }
+ #menuu h3{
+    padding-bottom: 40px;
+ }
+ #menuu .menu-img{
+    width: 200px;
+    height: 150px;
+ }
+ .menu-div img{
+    padding-top: 30px;
+ }
+
+#services{
+    text-align: center;
+}
+#services p{
+    font-size: 20px;
+}
+.services-div{
+    width: 330px;
+    height: 350px;
+    border: 1px solid white;
+}
+#services .services-img .img-fluid{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+}
+.service-div1{
+    width: 1100px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.service-div1 h2{
+    padding-top: 40px;
+}
+
+#contact{
+    margin-top: 80px;
+}
+#contact h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+#contact p{
+    font-size: 20px;
+}
+#contact .icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #ff7300;
+    padding-top: 11px;
+}
+#contact .icons{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+@media (max-width: 480px){
+    #home .row{
+        margin: 0;
+    }
+    #home img{
+        width: 300px;
+        height: 250px;
+    }
+    #home .img-fluid{
+        padding-top: 60px;
+    }
+    #home h1{
+        padding-top: 5px;
+    }
+    #about .about-img{
+        margin-left: 2px;
+    }
+    #menuu{
+        padding-bottom: 870px;
+    }
+    #menuu .menu-div{
+        width: 300px;
+        height: 250px;
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    #menuu .row .col-12 .col-lg-4{
+        margin-left: 5px;
+    }
+    #services{
+        text-align: center;
+    }
+    #services .services-div{
+        margin-bottom: 15px;
+    }
+    #services .services-img .img-fluid{
+        padding-top: 4px;
+        width: 60px;
+        height: 60px;
+        margin-left: 110px;
+    }
+    #services p{
+        font-size: 17px;
+    }
+    
+    #contact .row{
+        margin-left: 20px;
+    }
+    #contact p{
+        font-size: 17px;
+    }
+    #contact h2{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #contact{
+        margin-top: 10px;
+    }
+}

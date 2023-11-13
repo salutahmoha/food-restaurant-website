@@ -1,0 +1,42 @@
+
+#menu{
+    height: 663px;
+    text-align: center;
+    padding-top: 70px;
+}
+#menu .row{
+    margin-left: 25px;
+}
+#menu .menu-div{
+    width: 330px;
+    height: 280px;
+    background: #fff;
+ }
+ #menu h3{
+    padding-bottom: 40px;
+ }
+ #menu .menu-img{
+    width: 200px;
+    height: 150px;
+ }
+ .menu-div img{
+    padding-top: 30px;
+ }
+
+ @media (max-width: 480px){
+   #menu{
+      height: 980px;
+      text-align: center;
+      padding-top: 80px;
+  }
+  #menu .menu-div{
+   width: 250px;
+   height: 200px;
+   background: #fff;
+   margin-bottom: 10px;
+  }
+  #menu .menu-img{
+   width: 150px;
+   height: 100px;
+  }
+ }
